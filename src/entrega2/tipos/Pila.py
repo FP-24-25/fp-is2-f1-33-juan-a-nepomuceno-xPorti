@@ -5,7 +5,6 @@ Created on 9 nov 2024
 '''
 from __future__ import annotations
 from typing import Callable, List, TypeVar, Generic
-from _elementtree import Element
 from abc import abstractmethod
 from entrega2.tipos.Agregado_lineal import Agregado_lineal
 from _operator import index

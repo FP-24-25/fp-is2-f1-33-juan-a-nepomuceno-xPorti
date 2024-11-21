@@ -14,7 +14,7 @@ E = TypeVar("E")
 class Agregado_lineal(ABC, Generic[E]):
     
     def __init__(self):
-        self._elements: list[E]=[]
+        self._elements: list[E]=[]  
     
     @property
     def size(self):
